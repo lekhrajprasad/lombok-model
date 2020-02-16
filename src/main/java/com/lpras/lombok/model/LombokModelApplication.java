@@ -18,7 +18,8 @@ public class LombokModelApplication implements CommandLineRunner {
 	}
 	@Override
 	public void run(String... args) {
-        logger.info(email.toString());
+	    //for(int i=0; i<Integer.MAX_VALUE; i++)
+            logger.debug(email.toString());
 	}
 
 
